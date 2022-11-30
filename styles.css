@@ -9,7 +9,7 @@ body{
 }
 .container{
     color: var(--secondary-color);
-    width: 70%;
+    width: 40%;
     margin: auto;
 }
 .heading{
