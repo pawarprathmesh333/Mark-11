@@ -12,8 +12,9 @@ function calculateSum(dob){
     console.log(sum);
     return sum;
 }
-
+responce.style.display = "none";
 checkButton.addEventListener("click", function (){
+    responce.style.display = "block";
     if(birthDate.value&&luckyNumber.value)
     {    
         const dob = birthDate.value;
