@@ -9,11 +9,25 @@ function calculateSum(dob){
     for(let i=0;i<dob.length;i++){
         sum += Number(dob[i]);
     }
-    console.log(sum);
     return sum;
 }
+
+// function replacechar(someString, patern, replacewith){
+//     var result="";
+//     for(let i=0;i<someString.length;i++){
+//         if(someString[i]==patern){
+//             result+=replacewith;
+//         }
+//         else{
+//             result+=someString[i];
+//         }
+//     }
+//     return result;
+// }
+
 responce.style.display = "none";
 checkButton.addEventListener("click", function (){
+
     responce.style.display = "block";
     if(birthDate.value&&luckyNumber.value)
     {    
