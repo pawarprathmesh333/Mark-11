@@ -6,6 +6,8 @@
 body{
     font-family: 'Montserrat', sans-serif;
     background-color: var(--primary-color);
+
+
 }
 .container{
     color: var(--secondary-color);
@@ -44,3 +46,9 @@ input{
     padding:1rem 0rem;
     text-align: center;
 }
+footer{
+    position:absolute;
+    bottom:0;
+    margin: auto;
+}
+
